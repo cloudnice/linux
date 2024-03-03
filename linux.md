@@ -39,3 +39,9 @@ su -l kullanici_adı
 # --login seçeneğiyle
 su --login kullanici_adı
 # Örneğin: su --login ahmet
+
+# Eğer root olarak giriş yapamıyorsanız ve "xxxxxx" kullanıcısına sudo yetkileri vermeniz gerekiyorsa, aşağıdaki adımları takip edebilirsiniz. 
+su -
+nano /etc/sudoers
+xxxxxx ALL=(ALL:ALL) ALL
+exit
