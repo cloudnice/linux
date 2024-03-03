@@ -45,3 +45,9 @@ su -
 nano /etc/sudoers
 xxxxxx ALL=(ALL:ALL) ALL
 exit
+
+#Grup Üyeliklerini Kontrol Etme:
+id <user>
+Bu komut, kullanıcının grup üyeliklerini ve diğer bilgilerini gösterir.
+
+
