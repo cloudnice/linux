@@ -26,6 +26,9 @@ id <kullanıcı_adı>
 su - kullanici_adı
 # Örneğin: su - ahmet
 
+# dos2unix hatasi icin
+sudo apt-get install dos2unix
+find . -type f -exec dos2unix {} \;
 # sudo Komutu
 sudo -u kullanici_adı komut
 # Örneğin: sudo -u ahmet ls
