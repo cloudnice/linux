@@ -18,7 +18,7 @@ sudo passwd <kullanıcı_adı>
 
 # Kullanıcı Bilgilerini Görüntüleme
 id <kullanıcı_adı>
-# Örneğin: id ahmet
+# Örneğin: id ahmet 
 
 # Kullanıcı Arasında Geçiş
 
