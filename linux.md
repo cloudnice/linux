@@ -1,4 +1,4 @@
-# Linux Kullanıcı Yönetimi ve Geçiş Komutları
+# Linux Kullanıcı Yönetimi ve Geçiş Komutları 
 
 # Kullanıcı Oluşturma
 sudo adduser <kullanıcı_adı>
